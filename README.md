@@ -20,15 +20,15 @@ The model is trained on the LGG-MRI Segmentation dataset on kaggle:https://www.k
 
 ## 🔹 U-Net (Segmentation)
 
--Encoder (Contracting path) → extracts deep features.
+* Encoder (Contracting path) → extracts deep features.
 
--Bottleneck → compressed representation.
+* Bottleneck → compressed representation.
 
--Decoder (Expanding path) → reconstructs segmentation mask.
+* Decoder (Expanding path) → reconstructs segmentation mask.
 
--Skip Connections → help recover fine details (like tumor boundaries).
+* Skip Connections → help recover fine details (like tumor boundaries).
 
--Output: Binary mask (tumor = 1, background = 0).
+* Output: Binary mask (tumor = 1, background = 0).
 
 # 🔹 Pretrained ResNet50 (Classification)
 Input: Brain MRI image.
