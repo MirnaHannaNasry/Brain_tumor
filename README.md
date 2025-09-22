@@ -1,4 +1,4 @@
-MRI-Images-Segmentation-and-Classification
+# MRI-Images-Segmentation-and-Classification
 
 This repository contains a Jupyter notebook that focuses on Brain MRI image analysis using Deep Learning. It combines two tasks:
 
@@ -6,7 +6,7 @@ This repository contains a Jupyter notebook that focuses on Brain MRI image anal
 
 2-Classification of brain MRI images (tumor / no-tumor).
 
-📌 Project Overview
+# 📌 Project Overview
 
 Medical imaging plays a vital role in diagnosing brain tumors.
 The goal of this project is to:
@@ -16,17 +16,21 @@ The goal of this project is to:
   Automatically classify MRI scans based on the presence of tumors.
 The model is trained on the LGG-MRI Segmentation dataset on kaggle:https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation
 
-Model Architectures
+# Model Architectures
 
-🔹 U-Net (Segmentation)
+## 🔹 U-Net (Segmentation)
 
-Encoder (Contracting path) → extracts deep features.
-Bottleneck → compressed representation.
-Decoder (Expanding path) → reconstructs segmentation mask.
-Skip Connections → help recover fine details (like tumor boundaries).
-Output: Binary mask (tumor = 1, background = 0).
+-Encoder (Contracting path) → extracts deep features.
 
-🔹 Pretrained ResNet50 (Classification)
+-Bottleneck → compressed representation.
+
+-Decoder (Expanding path) → reconstructs segmentation mask.
+
+-Skip Connections → help recover fine details (like tumor boundaries).
+
+-Output: Binary mask (tumor = 1, background = 0).
+
+# 🔹 Pretrained ResNet50 (Classification)
 Input: Brain MRI image.
 Output: Tumor / No-tumor (binary classification).
 
