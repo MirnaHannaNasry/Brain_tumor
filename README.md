@@ -33,3 +33,5 @@ Output: Tumor / No-tumor (binary classification).
 Plots of Segmentation
 
 ![TUMOR](https://github.com/user-attachments/assets/738e77ee-85c4-4edf-a42c-71287947e885)
+
+![TUMOR2](https://github.com/user-attachments/assets/58b841b6-81bd-4e00-9e36-5efdf28321d7)
